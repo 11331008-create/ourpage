@@ -273,7 +273,7 @@
         // ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
         // ★【請在這裡填入您的 Gemini API Key】★
         // 範例：const apiKey = "AIzaSyDxxxxxxxxx...";
-        const apiKey = "AIzaSyCgqTVQShPZ4hXNLY4kTlHV1MK3Jo4_2Pw"; 
+        const apiKey = "AIzaSyB6fJGENEUzDVaHbKYYrd4BfxyBBJ3kxc4"; 
         // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
 
         function checkApiKey() {
@@ -595,4 +595,5 @@
         dropZone.addEventListener('drop', (e) => { e.preventDefault(); dropZone.classList.remove('dragover'); const reader = new FileReader(); reader.onload = (e) => { document.getElementById('manual-input').value = e.target.result; processData(); }; reader.readAsText(e.dataTransfer.files[0]); });
     </script>
 </body>
+
 </html>
